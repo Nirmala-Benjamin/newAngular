@@ -1,0 +1,6 @@
+<h4>pokemon</h4>
+<app-accordion *ngFor="let pokemon of pokemonList" [title]="pokemon.name">
+  <img [src]="pokemon.image" alt="{{ pokemon.name }}" />
+</app-accordion>
+
+

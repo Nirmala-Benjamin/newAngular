@@ -1,0 +1,3 @@
+<app-accordion *ngFor="let pokemon of pokemons" [title]="pokemon.name">
+    <img [src]="pokemon.image" alt="{{ pokemon.name }}"/>
+</app-accordion>
